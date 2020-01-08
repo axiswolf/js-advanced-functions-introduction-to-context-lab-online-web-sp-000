@@ -14,11 +14,11 @@ function createEmployeeRecords(employeeData) {
   return employeeData.map(createEmployeeRecord)
 }
 
-function createTimeInEvent() {
-
+function createTimeInEvent(record, date) {
+  
 }
 
-function createTimeOutEvent() {
+function createTimeOutEvent(record, date) {
 
 }
 
