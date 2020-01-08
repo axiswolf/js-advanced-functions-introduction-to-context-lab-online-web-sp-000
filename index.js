@@ -50,8 +50,10 @@ function wagesEarnedOnDate(record, date) {
   return pay;
 }
 
-function findEmployeeByFirstName() {
+function findEmployeeByFirstName(employeeRecords, name) {
   // finds "Loki"
+  return employeeRecords.find(x => employeeRecords.name == name);
+  
 }
 
 function calculatePayroll() {
