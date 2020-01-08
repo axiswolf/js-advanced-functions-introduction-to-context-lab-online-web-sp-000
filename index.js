@@ -20,6 +20,8 @@ function createTimeInEvent(record, date) {
       hour: parseInt(date.split(" ")[1]),
       date: date.split(" ")[0]
   }
+  record.timeInEvents.push(timeInEvent)
+  return record
 }
 
 function createTimeOutEvent(record, date) {
