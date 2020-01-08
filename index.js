@@ -28,6 +28,8 @@ function createTimeOutEvent(record, date) {
       hour: parseInt(date.split(" ")[1]),
       date: date.split(" ")[0]
   }
+  record.timeOutEvents.push(timeOutEvent)
+  return record
 }
 
 function hoursWorkedOnDate() {
