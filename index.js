@@ -50,9 +50,9 @@ function wagesEarnedOnDate(record, date) {
   return pay;
 }
 
-function findEmployeeByFirstName(employeeRecords, name) {
+function findEmployeeByFirstName(employeeRecords, firstName) {
   // finds "Loki"
-  return employeeRecords.find(x => x.name === name);
+  return employeeRecords.find(x => x.firstName === firstName);
 
 }
 
