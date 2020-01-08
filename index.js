@@ -13,9 +13,13 @@ function createEmployeeRecord([firstName, familyName, title, payPerHour]) {
 function createEmployeeRecords(employeeData) {
   return employeeData.map(createEmployeeRecord)
 }
-
+// date format "YYYY-MM-DD HHMM"
 function createTimeInEvent(record, date) {
-
+  let timeInEvent = {
+      type: "TimeIn",
+      hour: parseInt(date.split(" ")[1]),
+      date: date.split(" ")[0]
+  }
 }
 
 function createTimeOutEvent(record, date) {
