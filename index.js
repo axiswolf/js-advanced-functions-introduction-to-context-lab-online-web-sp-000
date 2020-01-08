@@ -45,7 +45,7 @@ function wagesEarnedOnDate() {
 }
 
 function findEmployeeByFirstName() {
-
+  // finds "Loki"
 }
 
 function calculatePayroll() {
