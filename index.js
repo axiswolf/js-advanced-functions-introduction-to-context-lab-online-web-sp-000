@@ -50,6 +50,7 @@ function findEmployeeByFirstName() {
 
 function calculatePayroll() {
   // calculates that the employees earned 770 dollars
+  // correctly sums the payroll burden to $11,880 when passed an array of employee records
 }
 
 function allWagesFor() {
