@@ -43,9 +43,11 @@ function hoursWorkedOnDate(employeeRecord, date) {
   return hoursWorked;
 }
 
-function wagesEarnedOnDate() {
+function wagesEarnedOnDate(record, date) {
   // calculates that the employee earned 54 dollars
-
+  let hoursWorked = hoursWorkedOnDate(record, date);
+  let pay = record.payPerHour * hoursWorked;
+  return pay;
 }
 
 function findEmployeeByFirstName() {
