@@ -34,6 +34,19 @@ function createTimeOutEvent(record, date) {
   return record
 }
 
-function hoursWorkedOnDate() {
+function hoursWorkedOnDate(employee) {
+  // calculates that the employee worked 2 hours
+   
+}
 
+function wagesEarnedOnDate() {
+  
+}
+
+function findEmployeeByFirstName() {
+  
+}
+
+function calculatePayroll() {
+  
 }
