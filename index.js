@@ -49,7 +49,7 @@ function findEmployeeByFirstName() {
 }
 
 function calculatePayroll() {
-
+  // calculates that the employees earned 770 dollars
 }
 
 function allWagesFor() {
