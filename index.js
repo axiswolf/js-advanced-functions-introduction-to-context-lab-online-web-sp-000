@@ -15,7 +15,7 @@ function createEmployeeRecords(employeeData) {
 }
 
 function createTimeInEvent(record, date) {
-  
+
 }
 
 function createTimeOutEvent(record, date) {
