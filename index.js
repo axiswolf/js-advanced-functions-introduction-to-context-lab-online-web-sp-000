@@ -63,7 +63,11 @@ function calculatePayroll(employeeRecords) {
   return totalPay;
 }
 
-function allWagesFor() {
+function allWagesFor(employeeRecord) {
   // aggregates all the dates' wages and adds them together
   // calculates that the employee earned 378 dollars
+  const datesWorked = employeeRecord.timeInEvents.map(event => event.date);
+  const wagesOnDatesWorked = datesWorked.map(date => wagesEarnedOnDate(employeeRecord, date));
+  const totalWages = wagesOnDatesWorked.reduce(((total, earning) => total + earning),0);
+  return totalWages;
 }
